@@ -8,6 +8,4 @@ class User < ActiveRecord::Base
       happiness > nausea ? 'happy' : 'sad'
     end
   end
-
-
 end
